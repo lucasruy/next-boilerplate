@@ -5,14 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "component:new": "plop --plopfile .plop/.plopfile.js",
     "test": "jest --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
     "test:ci": "jest --runInBand",
+    "storybook": "storybook dev -p 6006",
+    "storybook:build": "storybook build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@types/node": "20.5.9",
@@ -49,6 +50,7 @@
     "jest-environment-jsdom": "^29.6.4",
     "jest-styled-components": "^7.1.1",
     "lint-staged": "^14.0.1",
+    "plop": "^4.0.0",
     "prettier": "3.0.3",
     "storybook": "^7.4.0"
   }

@@ -5,6 +5,7 @@ module.exports = {
   collectCoverageFrom: [
     'src/**/*.ts(x)?',
     '!src/app/**',
+    '!src/**/*.stories.tsx',
     '!src/lib/registry.tsx',
     '!src/types/**',
     '!src/styles/**'

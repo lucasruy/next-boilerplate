@@ -1,7 +1,6 @@
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+# Next Boilerplate
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
-![ci](https://github.com/React-Avancado/boilerplate-apps-router/workflows/ci/badge.svg)
+[![CI](https://github.com/lucasruy/next-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/lucasruy/next-boilerplate/actions/workflows/ci.yml)
 
 ## What is inside?
 
@@ -36,11 +35,13 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `dev`: runs your application on `localhost:3000`
 - `build`: creates the production build version
 - `start`: starts a simple server with the build production code
+- `component:new`: create a new component following the structure proposed by boilerplate
 - `lint`: runs the linter in all components and pages
 - `test`: runs jest to test all components and pages
 - `test:watch`: runs jest in watch mode
+- `test:ci`: runs jest in CI mode
 - `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
+- `storybook:build`: create the build version of storybook
 
 ## Learn More
 
